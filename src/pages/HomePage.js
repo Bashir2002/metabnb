@@ -410,6 +410,7 @@ const Wrapper = styled.section`
     .hero {
       display: flex;
       padding-top:2rem;
+      
       flex-direction: column-reverse;
     }
     .hero-content {
