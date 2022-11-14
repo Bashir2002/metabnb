@@ -247,7 +247,7 @@ const Wrapper = styled.section`
   }
   .bnb img{
     object-fit:contain;
-    width:30rem;
+    width:100%;
     text-align: center;
   }
   .bnb1 p{
