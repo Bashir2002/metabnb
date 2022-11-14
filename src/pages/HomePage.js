@@ -162,6 +162,9 @@ const Wrapper = styled.section`
   .infos img {
     padding: 0 0.5rem;
   }
+  button{
+    cursor: pointer;
+  }
   .pop-up{
     width:40%;
     position:fixed;
@@ -374,6 +377,9 @@ const Wrapper = styled.section`
     .project h4 {
       font-size: 1.1rem;
     }
+    // .infos img{
+    //   width: 50%;
+    // }
   }
   @media screen and (max-width: 1050px) {
     .infos div{
@@ -381,7 +387,7 @@ const Wrapper = styled.section`
     }
   }
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 920px) {
     .projects{
       grid-template-columns:47% 47%;
     }
@@ -467,11 +473,20 @@ const Wrapper = styled.section`
       font-size: 0.9rem;
     }
   }
+  @media (max-width: 350px) {
+    .infos div{
+      font-size:0.6rem;
+    }
+  }
   @media (max-width: 300px) {
-    .info{
-      display :grid;
-      margin-top: -0.3rem;
-      grid-template-columns:100%;
+    .links h3{
+      font-size:0.5rem;
+    }
+    .links img{
+      1rem;
+    }
+    .form button{
+      padding:0.8rem 1rem;
     }
   }
 `

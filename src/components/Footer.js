@@ -46,21 +46,10 @@ const Footer = () => {
 }
 
 const Wrapper = styled.footer`
-  // height: 5rem;
   display: flex;
   justify-content: space-between;
   padding: 2rem 15rem 2rem 5rem;
-  // gap: 10rem;
-  // padding: 2rem;
-  // width: 90vw;
   background-color: black;
-  // margin: 0 auto;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  border-top: 1px dashed white;
-  // background: var(--clr-black);
-  // text-align: center;
   span {
     color: var(--clr-primary-5);
   }
@@ -128,6 +117,10 @@ const Wrapper = styled.footer`
       color: white;
       font-size: 0.9rem;
       width: 80%;
+    }
+    .one img {
+      width: 50%;
+      color: black;
     }
   }
 `

@@ -151,5 +151,10 @@ const Wrapper = styled.section`
       padding-top: 0;
     }
   }
+  @media (max-width: 350px) {
+    .infos div {
+      font-size: 0.7rem;
+    }
+  }
 `
 export default AboutPage
